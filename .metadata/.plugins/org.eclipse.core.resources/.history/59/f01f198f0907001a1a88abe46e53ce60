@@ -1,0 +1,11 @@
+package escola;
+
+public class trabalho {
+
+	public static void main(String[] args) {
+		String nome = "Iago";
+		System.out.println(nome.length());
+
+	}
+
+}

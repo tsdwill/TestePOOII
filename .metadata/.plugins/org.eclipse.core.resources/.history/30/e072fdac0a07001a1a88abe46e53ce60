@@ -1,0 +1,25 @@
+package escola;
+
+public class trabalho {
+
+	public static void main(String[] args) {
+		Aluno teste1 = new Aluno();
+		teste1.setNome("Iago");
+		teste1.setNota1(6.9);
+		teste1.setNota2(-5);
+		
+		
+		System.out.println(teste1.getNome());
+		
+		if (teste1.getNome().length() == 5) {
+			System.out.println(teste1.getNome().length());
+		}
+		if (teste1.getNota1() >= 0 && teste1.getNota1() <= 10 );
+		System.out.println(teste1.getNota1());
+		
+		if (teste1.getNota2() >= 0 && teste1.getNota2() <= 10 );
+		System.out.println(teste1.getNota2());
+	}
+	
+
+}

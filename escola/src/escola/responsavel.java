@@ -1,0 +1,31 @@
+package escola;
+
+public class responsavel extends Aluno {
+private String nome;
+private String email;
+private String telefone;
+
+public String getNome() {
+	if (getNome().length() <=30) {
+		return nome;}
+	else {
+		System.out.println("O nome deve conter até 30 caracteres.");
+		return getNome();
+	}
+}
+public void setNome(String nome) {
+	this.nome = nome;
+}
+public String getEmail() {
+	return email;
+}
+public void setEmail(String email) {
+	this.email = email;
+}
+public String getTelefone() {
+	return telefone;
+}
+public void setTelefone(String telefone) {
+	this.telefone = telefone;
+}
+}

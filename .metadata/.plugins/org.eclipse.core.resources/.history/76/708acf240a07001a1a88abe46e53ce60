@@ -1,0 +1,16 @@
+package escola;
+
+public class trabalho {
+
+	public static void main(String[] args) {
+		Aluno teste1 = new Aluno();
+		teste1.setNome("Iago");
+		System.out.println(teste1.getNome());
+		
+		if (teste1.getNome().length() == 5) {
+			System.out.println(teste1.getNome().length());
+		}
+	}
+	
+
+}
